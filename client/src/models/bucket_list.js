@@ -1,14 +1,14 @@
 var BucketList = function() {
   this.countries = [];
-}
+};
 
-BucketList.protoype = {
+BucketList.prototype = {
   addCountry: function(country) {
     this.countries.push(country);
-  };
+  }
   // findCountry: function(term, value){
   //
   // }
-}
+};
 
 module.exports = BucketList;

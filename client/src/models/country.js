@@ -5,10 +5,10 @@ var Country = function(params){
   this.relevance = params.relevance;
 };
 
-Country.prototype = {
-  save: function(){
-
-  }
-}
+// Country.prototype = {
+//   save: function(){
+//
+//   }
+// }
 
 module.exports = Country;
